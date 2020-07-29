@@ -1,9 +1,86 @@
-<html>
-<head>
-<title>welcome</title>
-</head>
-<body>
-<p>hello
-</p>
-</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h1 {
+        /* animation: type 3s steps(22) reverse; */
+        overflow: hidden;
+        white-space: nowrap;
+        font-family: consolas;
+        /* border-right: 4px solid black; */
+        width: 20ch;
+        display: inline-flex;
+      }
+      span {
+        animation: borders 2s infinite;
+        font-size: 40px;
+        font-weight: bold;
+        display: inline-block;
+      }
+
+      .typing {
+        animation: type 6s steps(22) infinite;
+      }
+      @keyframes type {
+        0% {
+          width: 0ch;
+        }
+        40% {
+          width: 20ch;
+        }
+        75% {
+          width: 20ch;
+        }
+        100% {
+          width: 0ch;
+        }
+      }
+      @keyframes borders {
+        from {
+          opacity: 1;
+        }
+        to {
+          opacity: 0;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="text" class="typing">Text Typing Animation.</h1>
+    <span>|</span>
+
+    <!-- <div data-video="gRdkll7o5EI"  
+        data-autoplay="1"         
+        data-loop="1"             
+        id="youtube-audio" style="display: none;">
+ </div>
+
+ <script src="https://www.youtube.com/iframe_api"></script>
+ <script src="https://cdn.rawgit.com/labnol/files/master/yt.js"></script> -->
+    <script>
+      var x = 0;
+      setInterval(() => {
+        let text = document.getElementById("text");
+        x = x + 1;
+        switch (x) {
+          case 1:
+            text.textContent = "Yes you can do it that.";
+            break;
+          case 2:
+            text.textContent = "LOL this is very esy......";
+            break;
+          case 3:
+            text.textContent = "I love that hahahaha......";
+            setTimeout(() => {
+                text.classList.remove('typing')
+            }, 2500);
+            break;
+        }
+        console.log("good");
+      }, 6000);
+    </script>
+  </body>
 </html>
