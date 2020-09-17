@@ -17,7 +17,6 @@
 [<img align="left" alt="codeSTACKr | YouTube" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/youtube.svg" />][youtube]
 [<img align="left" alt="codeSTACKr | Twitter" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/twitter.svg" />][twitter]
 [<img align="left" alt="codeSTACKr | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
-[<img align="left" alt="codeSTACKr | Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />][instagram]
 
 <br />
 
@@ -80,5 +79,7 @@
 
 </details>
 
+[website]: https://waseel.js.org
 [twitter]: https://twitter.com/dwaseel
-
+[youtube]: https://www.youtube.com/channel/UC7lSMD4an6tY-akO604XMDQ
+[linkedin]: https://www.linkedin.com/in/waseel
