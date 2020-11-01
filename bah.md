@@ -1,4 +1,4 @@
-<div style="direction: rtl;">
+<div style="direction:rtl;">
 
 # بحث عن مبدأ باسكال ومبدأ برنولي مع ذكر تطبيقات على كل مبدأ
 
