@@ -7,7 +7,7 @@
 
 - 🔭 I am currently working as a freelance developer and team we direct you software
 - 🌱 I am learning everything right now 🤣
-- 🥅 2020 goals: Contribute more to open source projects
+- 🥅 2021 goals: Contribute more to open source projects
 - ⚡ Fun fact: I neither know nor like lying
 
 ### Connect with me:
