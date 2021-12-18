@@ -67,10 +67,11 @@
 
 <details>
   <summary>:zap: Github Stats</summary>
-
-  <img align="left" alt="waseeld's Github Stats" src="https://github-readme-stats.vercel.app/api?username=waseeld&show_icons=true&count_private=truehide_border=true" />
-
+  
 </details>
+
+ | <a href="https://github.com/waseeld"><img align="center" src="https://github-readme-stats.vercel.app/api?username=waseeld&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/waseeld"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waseeld&layout=compact&theme=buefy&hide_border=true" /></a> |
+| ------------- | ------------- |
 
 [website]: https://waseel.js.org
 [twitter]: https://twitter.com/dwaseel
