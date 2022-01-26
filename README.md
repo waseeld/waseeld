@@ -65,6 +65,9 @@
 
 </details>
 
+<!-- https://github.com/ashutosh00710/github-readme-activity-graph -->
+<a href="https://github.com/ashutosh00710/github-readme-activity-graph"><img alt="waseeld's Activity Graph" src="https://denvercoder1-activity-graph.herokuapp.com/graph/?username=waseeld&theme=minimal" /></a>
+
 <details>
   <summary>:zap: Github Stats</summary>
   
