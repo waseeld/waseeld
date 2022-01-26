@@ -73,6 +73,10 @@
  | <a href="https://github.com/waseeld"><img align="center" src="https://github-readme-stats.vercel.app/api?username=waseeld&show_icons=true&include_all_commits=true&theme=buefy&hide_border=true" alt="Anurag's github stats" /></a> | <a href="https://github.com/waseeld"><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs/?username=waseeld&layout=compact&theme=buefy&hide_border=true" /></a> |
 | ------------- | ------------- |
 
+# Stats no one asked for:
+
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=waseeld)](https://git.io/streak-stats)
+
 [website]: https://waseel.js.org
 [twitter]: https://twitter.com/dwaseel
 [youtube]: https://www.youtube.com/channel/UC7lSMD4an6tY-akO604XMDQ
