@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اكتشف قوة Set في جافا سكربت: لماذا يجب أن تبدأ باستخدامها الآن!</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            direction: rtl;
+            text-align: right;
+        }
+        .container {
+            max-width: 800px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #007BFF;
+            text-align: center;
+        }
+        h2 {
+            color: #0056b3;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #e9ecef;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre code {
+            background-color: #2d2d2d;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #2d2d2d;
+            color: #f8f8f2;
+            padding: 15px;
+            border-radius: 8px;
+            overflow-x: auto;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: left;
+            direction: ltr;
+        }
+        .author {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+        .author img {
+            border-radius: 50%;
+            margin-left: 15px;
+        }
+        .author-info {
+            text-align: right;
+        }
+        .author-info a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+        .sources {
+            margin-top: 30px;
+        }
+        .sources h3 {
+            color: #0056b3;
+        }
+        .sources ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .sources li {
+            margin-bottom: 10px;
+        }
+        .sources a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="author">
+            <img src="https://avatars.githubusercontent.com/u/33339924?v=4" alt="Author's Avatar" width="80" height="80">
+            <div class="author-info">
+                <h3>الكاتب: واصل المهري</h3>
+                <p><a href="https://github.com/waseeld" target="_blank">حساب GitHub</a></p>
+            </div>
+        </div>
+        <h1>اكتشف قوة Set في جافا سكربت: لماذا يجب أن تبدأ باستخدامها الآن!</h1>
+        <p>أكثر من 10 سنوات وأنا أبرمج جافا سكربت، دوبي الآن استخدم <code>Set</code> بدلاً من <code>Array</code> 😂. تعلمت استخدام <code>Set</code> عندما بدأت أبرمج شبكة العقد (nodes network) للبلوكشين الذي أقوم ببنائه كجزء من مشروع مادة أساسيات الحوسبة في الجامعة.</p>
+        <h2>ما هو <code>Set</code> في جافا سكربت؟</h2>
+        <p><code>Set</code> هو نوع من الكائنات في جافا سكربت يُستخدم لتخزين القيم الفريدة من أي نوع، سواء كانت بدائية أو كائنات. على عكس المصفوفات، لا يسمح <code>Set</code> بتكرار القيم، مما يجعله مثاليًا عندما تحتاج إلى مجموعة من العناصر الفريدة.</p>
+        <h2>خصائص ومزايا <code>Set</code></h2>
+        <ul>
+            <li><strong>عدم التكرار:</strong> <code>Set</code> يضمن أن كل عنصر في المجموعة فريد. إذا حاولت إضافة عنصر موجود بالفعل، فلن يتم إضافته مرة أخرى.</li>
+            <li><strong>الأداء:</strong> عمليات البحث والإضافة والحذف في <code>Set</code> تتم في وقت ثابت تقريبًا، مما يجعله أكثر كفاءة في بعض الحالات مقارنة بالمصفوفات.</li>
+            <li><strong>الترتيب:</strong> يحتفظ <code>Set</code> بترتيب العناصر كما تم إدخالها، مما يعني أنه يمكنك الاعتماد على ترتيب الإدخال عند التكرار.</li>
+            <li><strong>الطرق المتاحة:</strong>
+                <ul>
+                    <li><code>add(value)</code>: لإضافة عنصر جديد.</li>
+                    <li><code>delete(value)</code>: لحذف عنصر.</li>
+                    <li><code>has(value)</code>: للتحقق من وجود عنصر.</li>
+                    <li><code>size</code>: للحصول على عدد العناصر.</li>
+                    <li><code>forEach(callback)</code>: للتكرار على العناصر.</li>
+                </ul>
+            </li>
+        </ul>
+        <h2>مثال على استخدام <code>Set</code></h2>
+        <pre><code>let uniqueNumbers = new Set();
+uniqueNumbers.add(1);
+uniqueNumbers.add(2);
+uniqueNumbers.add(2); // لن يتم إضافته مرة أخرى
+
+console.log(uniqueNumbers); // Set(2) { 1, 2 }
+
+console.log(uniqueNumbers.has(1)); // true
+console.log(uniqueNumbers.has(3)); // false
+
+uniqueNumbers.delete(1);
+console.log(uniqueNumbers); // Set(1) { 2 }
+
+uniqueNumbers.forEach(value => {
+    console.log(value);
+});</code></pre>
+        <h2>متى تستخدم <code>Set</code>؟</h2>
+        <p>عندما تحتاج إلى مجموعة من العناصر الفريدة. عندما تكون عمليات البحث والإضافة والحذف المتكررة مطلوبة بكفاءة. عندما لا تحتاج إلى الوصول إلى العناصر عبر الفهرسة.</p>
+        <p>في النهاية، <code>Set</code> هو أداة قوية في جافا سكربت يمكن أن توفر لك الوقت والجهد في إدارة مجموعات البيانات الفريدة. إذا كنت، مثلي، قد قضيت سنوات في استخدام المصفوفات فقط، فقد حان الوقت لتجربة <code>Set</code> والاستفادة من مزاياه الفريدة!</p>
+        <div class="sources">
+            <h3>المصادر</h3>
+            <ul>
+                <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set" target="_blank">MDN Web Docs - Set</a></li>
+                <li><a href="https://www.javascript.info/map-set" target="_blank">JavaScript.info - Map and Set</a></li>
+                <li><a href="https://www.w3schools.com/js/js_object_sets.asp" target="_blank">W3Schools - JavaScript Sets</a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
